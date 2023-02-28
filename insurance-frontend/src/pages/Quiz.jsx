@@ -2,7 +2,7 @@ import React from 'react'
 import { useState, useEffect } from 'react';
 import { v4 as uuidv4 } from "uuid";
 import data from '../data/questions.json';
-import Final from '../components/Final/Final';
+import Final from '../pages/Final';
 import { Line } from "rc-progress";
 
 export default function Quiz() {
@@ -10,13 +10,13 @@ export default function Quiz() {
   const [questions, setQuestions] = useState("");
   const [currentQuestion, setCurrentQuestion] = useState(0);
   // eslint-disable-next-line no-unused-vars
-  const [_level, setLevel] = useState(0);
   const [score, setScore] = useState(0);
   const [showScore, setShowScore] = useState(false);
   const [answerSelected, setAnswerSelected] = useState(true);
   const [answerCorrect, setAnswerCorrect] = useState(false);
 
-
+  //const for how many questions will be asked
+  const num = 10;
 
   //function that can take in an array and the number of questions required
   //gives a random objects from the array back
@@ -37,7 +37,7 @@ export default function Quiz() {
 //use the getRandom function created with the data and n needed and set the questions
 //to the returened information
  const getQuestions = () =>{
-    setQuestions(getRandom(data, 50));
+    setQuestions(getRandom(data, num));
  }
 
  //run a useEffect with the getQuestions function
@@ -47,7 +47,6 @@ export default function Quiz() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-console.log(questions)
   const handleAnswerOptionClick = (isCorrect, points) => {
     let answerTimer;
     let questionTimer;
@@ -87,8 +86,6 @@ console.log(questions)
       setTimeout(() => setShowScore(true), 300);
     }
   };
-
-  
   return (
     <>
       {showScore ? (
@@ -98,6 +95,7 @@ console.log(questions)
             text={
               "You did no pass 😥"
             }
+            questions ={num}
           />
         ) : (
           <Final
@@ -105,24 +103,25 @@ console.log(questions)
             text={
               "You Passed 🥳"
             }
+            questions ={num}
           />
         )
       ) : (
-        <div className="">
+        <div className="pt-8 px-2">
           <div className="">
             <Line
               percent={((currentQuestion + 1) / questions.length) * 100}
-              strokeWidth={4}
+              strokeWidth={1}
               strokeColor="#379683"
             />
           </div>
-          <div className="">
-            <div className="">
+          <div className="px-2 pt-6 flex flex-col flex-wrap w-full">
+            <div className="font-bold">
               {questions && questions[currentQuestion].question}
             </div>
-            <div className="">
+            <div className="flex flex-col bg-red">
               {questions &&
-                questions[currentQuestion].answerOptions.map((answerOption) => (
+                getRandom((questions[currentQuestion].answerOptions),  questions[currentQuestion].answerOptions.length).map((answerOption) => (
                   <button
                     key={uuidv4()}
                     onClick={() =>
@@ -133,8 +132,8 @@ console.log(questions)
                     }
                     className={
                       answerOption.isCorrect && answerSelected && answerCorrect
-                        ? "questions__btn--correct"
-                        : "questions__btn"
+                        ? "border border-gray-400 rounded shadow my-4  hover:border-red-400"
+                        : "border border-gray-400 rounded shadow my-4 bg-white hover:bg-red"
                     }
                   >
                     {answerOption.answer}
