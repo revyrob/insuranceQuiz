@@ -1,7 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
 import { v4 as uuidv4 } from "uuid";
-//import data from '../data/questions.json';
 import Final from '../pages/Final';
 import { Line } from "rc-progress";
 import axios from "axios";
@@ -15,17 +14,10 @@ export default function Quiz() {
   const [showScore, setShowScore] = useState(false);
   const [answerSelected, setAnswerSelected] = useState(false);
   const [answerCorrect, setAnswerCorrect] = useState(false);
-  //const [data, setData] = useState("");
   
   //const for how many questions will be asked
   const num = 10;
   
-  //use the getRandom function created with the data and n needed and set the questions
-  //to the returened information
-  // const getQuestions = () =>{
-  //   setQuestions(getRandom(data, num));
-  // }
-
   const REACT_APP_API_SERVER_URL = process.env.REACT_APP_API_SERVER_URL;
   
   //get data from the backend
@@ -60,7 +52,6 @@ export default function Quiz() {
   //run a useEffect with the getQuestions function
   useEffect(() => {
     getData();
-    //getQuestions();
     
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
