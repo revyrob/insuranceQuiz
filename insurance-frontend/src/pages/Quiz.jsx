@@ -12,7 +12,7 @@ export default function Quiz() {
   // eslint-disable-next-line no-unused-vars
   const [score, setScore] = useState(0);
   const [showScore, setShowScore] = useState(false);
-  const [answerSelected, setAnswerSelected] = useState(true);
+  const [answerSelected, setAnswerSelected] = useState(false);
   const [answerCorrect, setAnswerCorrect] = useState(false);
 
   //const for how many questions will be asked
@@ -89,7 +89,7 @@ export default function Quiz() {
   return (
     <>
       {showScore ? (
-        score > 70 ? (
+        ((score/num)*100) < 70 ? (
           <Final
             score={score}
             text={
@@ -132,8 +132,8 @@ export default function Quiz() {
                     }
                     className={
                       answerOption.isCorrect && answerSelected && answerCorrect
-                        ? "border border-gray-400 rounded shadow my-4  hover:border-red-400"
-                        : "border border-gray-400 rounded shadow my-4 bg-white hover:bg-red"
+                        ? "border border-gray-400 rounded shadow my-4 hover:bg-green-400"
+                        : "border border-gray-400 rounded shadow my-4 bg-white hover:bg-red-600"
                     }
                   >
                     {answerOption.answer}
