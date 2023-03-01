@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Homepage from './pages/Homepage';
+import NotFound from "./pages/NotFound";
 import Quiz from './pages/Quiz';
 
 
@@ -11,6 +12,8 @@ function App() {
       <Route path="/" element={<Homepage />} />
 
       <Route path="/quiz" element={<Quiz />} />
+
+      <Route path="*" element={<NotFound />} />
     </Routes>
   </BrowserRouter>
   
