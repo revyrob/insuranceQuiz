@@ -58,26 +58,14 @@ export default function Quiz() {
   }, []);
   
   const handleAnswerOptionClick = (isCorrect, points) => {
-    let answerTimer;
-    let questionTimer;
+    //let answerTimer;
+    //let questionTimer;
     setAnswerSelected(true);
     if (isCorrect) {
       setScore(score + points);
     }
-    
     if (answerSelected === isCorrect) {
-      answerTimer = setTimeout(() => {
-        setAnswerCorrect(false);
-      }, 200);
       setAnswerCorrect(true);
-      
-      if (!answerTimer) {
-        answerTimer = setTimeout(() => {
-          setAnswerCorrect(false);
-        }, 200);
-      } else {
-        clearTimeout(answerTimer);
-      }
     } else {
       setAnswerCorrect(false);
     }
@@ -85,13 +73,13 @@ export default function Quiz() {
     
     const nextQuestion = currentQuestion + 1;
     if (nextQuestion < questions.length) {
-      if (!questionTimer) {
-        questionTimer = setTimeout(() => {
+      // if (!questionTimer) {
+      setTimeout(() => {
           setCurrentQuestion(nextQuestion);
         }, 1000);
-      } else {
-        clearTimeout(questionTimer);
-      }
+      // } else {
+      //   clearTimeout(questionTimer);
+      // }
     } else {
       setTimeout(() => setShowScore(true), 300);
     }
@@ -142,8 +130,8 @@ export default function Quiz() {
                   }
                   className={
                     answerOption.isCorrect && answerSelected && answerCorrect
-                    ? "border border-gray-400 rounded shadow my-4 hover:bg-green-400"
-                    : "border border-gray-400 rounded shadow my-4 bg-white hover:bg-red-600"
+                    ? "border border-gray-400 rounded shadow my-4 bg-green-400"
+                    : "border border-gray-400 rounded shadow my-4 bg-white "
                   }
                   >
                   {answerOption.answer}
