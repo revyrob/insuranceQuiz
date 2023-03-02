@@ -6,6 +6,10 @@ import { Line } from "rc-progress";
 import axios from "axios";
 
 export default function Quiz() {
+  //num of questions come from homepage session storage when user entered in a number
+  //if they did not enter in a number it defaults to 20
+  let num = sessionStorage.getItem("num");
+
   //use sessions storage for level
   const [questions, setQuestions] = useState("");
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -14,10 +18,7 @@ export default function Quiz() {
   const [showScore, setShowScore] = useState(false);
   const [answerSelected, setAnswerSelected] = useState(false);
   const [answerCorrect, setAnswerCorrect] = useState(false);
-  
-  //const for how many questions will be asked
-  const num = 10;
-  
+
   const REACT_APP_API_SERVER_URL = process.env.REACT_APP_API_SERVER_URL;
   
   //get data from the backend

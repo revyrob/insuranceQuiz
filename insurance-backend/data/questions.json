@@ -995,5 +995,655 @@
       { "answer": "Sewer backup", "isCorrect": false, "points": 0 },
       { "answer": "Rust or corrosion", "isCorrect": false, "points": 0 }
     ]
+  },
+  {
+    "question": "Direct damage is when the object of insurance is damaged or destroyed by insured peril.",
+    "answerOptions": [
+      { "answer": "true", "isCorrect": true, "points": 1 },
+      { "answer": "false", "isCorrect": false, "points": 0 }
+    ]
+  },
+
+  {
+    "question": "Is the loss of business income from a direct loss insured?",
+    "answerOptions": [
+      { "answer": "no", "isCorrect": true, "points": 1 },
+      { "answer": "yes", "isCorrect": false, "points": 0 }
+    ]
+  },
+
+  {
+    "question": "Are indirect losses insured by property policy?",
+    "answerOptions": [
+      { "answer": "no", "isCorrect": true, "points": 1 },
+      { "answer": "yes", "isCorrect": false, "points": 0 }
+    ]
+  },
+
+  {
+    "question": "Which represents the Actual Cash Value?",
+    "answerOptions": [
+      {
+        "answer": "replacement cost - depreciation",
+        "isCorrect": true,
+        "points": 1
+      },
+      { "answer": "replacement cost", "isCorrect": false, "points": 0 },
+      { "answer": "depreciation", "isCorrect": true, "points": 1 },
+      {
+        "answer": "purchase price - depreciation",
+        "isCorrect": true,
+        "points": 1
+      }
+    ]
+  },
+
+  {
+    "question": "Which is not a requirement for a replacement cost for a buiding?",
+    "answerOptions": [
+      {
+        "answer": "replacement shall be on any site which the insured deems usable.",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "replacement shall be effected by the insured with due diligence and dispatch.",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "replacement shall eb on the same site or and adjacent site.",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "settlement on a replacement cost basis shall be made only when replacement has actually been effected.",
+        "isCorrect": true,
+        "points": 1
+      }
+    ]
+  },
+
+  {
+    "question": "Will the mortgagee receive payments on it's insurable interest for a property if the insured breaches a policy condition?",
+    "answerOptions": [
+      { "answer": "yes", "isCorrect": true, "points": 1 },
+      { "answer": "no", "isCorrect": false, "points": 0 }
+    ]
+  },
+
+  {
+    "question": "Named perils does not include the following point.",
+    "answerOptions": [
+      {
+        "answer": "Lists only what is not covered.",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "Will name the perils insured.",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "If the peril is on the list it is covered.",
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+
+  {
+    "question": "What is not considered personnel property.",
+    "answerOptions": [
+      { "answer": "equipment", "isCorrect": true, "points": 1 },
+      { "answer": "dwelling building", "isCorrect": false, "points": 0 },
+      {
+        "answer": "detached private structures",
+        "isCorrect": false,
+        "points": 0
+      },
+      { "answer": "personal property", "isCorrect": false, "points": 0 }
+    ]
+  },
+
+  {
+    "question": "What is not considered commercial property property.",
+    "answerOptions": [
+      {
+        "answer": "detached private structures",
+        "isCorrect": true,
+        "points": 1
+      },
+      { "answer": "building", "isCorrect": false, "points": 0 },
+      { "answer": "stock", "isCorrect": false, "points": 0 },
+      { "answer": "equipment", "isCorrect": false, "points": 0 }
+    ]
+  },
+
+  {
+    "question": "The indemnity agreements agrees that the insured will get the lesser of the.",
+    "answerOptions": [
+      {
+        "answer": "ACV, insured's interest, or amount of insurance",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "ACV or amount of insurance",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "insured's interest or amount of insurance",
+        "isCorrect": false,
+        "points": 0
+      },
+      { "answer": "ACV or insured's interest", "isCorrect": false, "points": 0 }
+    ]
+  },
+
+  {
+    "question": "The optional loss settlement lets the insured take: ACV or replacement loss settlement.",
+    "answerOptions": [
+      { "answer": "true", "isCorrect": true, "points": 1 },
+      { "answer": "false", "isCorrect": false, "points": 0 }
+    ]
+  },
+
+  {
+    "question": "An estoppel is when an adjuster communicates that they believe the object may be insurred and it may not be covered under the policy.  But if the adjuster creates this belief and the object is no covered, then they must cover it.",
+    "answerOptions": [
+      { "answer": "true", "isCorrect": true, "points": 1 },
+      { "answer": "false", "isCorrect": false, "points": 0 }
+    ]
+  },
+
+  {
+    "question": "Does replacement cost include depreciation?",
+    "answerOptions": [
+      { "answer": "no", "isCorrect": true, "points": 1 },
+      { "answer": "yes", "isCorrect": false, "points": 0 }
+    ]
+  },
+
+  {
+    "question": "A partner of a named insured will be considered common in law and entitled to coverage for all points except one, which one is excluded?",
+    "answerOptions": [
+      {
+        "answer": "A person living with the Named Insured in a conjugal relationship outside marriage continuously for a period of two years.",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "A person living with the Named Insured in a conjugal relationship outside marriage continuously for a period of three years.",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "The natural or adoptive parent of a child, living with the Named Insured for a period of one year.",
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+
+  {
+    "question": "If the insured loses their keys they are covered for lock replacement under the Home Owners form?",
+    "answerOptions": [
+      { "answer": "false", "isCorrect": true, "points": 1 },
+      { "answer": "true", "isCorrect": false, "points": 0 }
+    ]
+  },
+
+  {
+    "question": "Is wind or hail covered for outdoor trees, shrubs and plants for dwelling building extensions?",
+    "answerOptions": [
+      { "answer": "no", "isCorrect": true, "points": 1 },
+      { "answer": "yes", "isCorrect": false, "points": 0 }
+    ]
+  },
+
+  {
+    "question": "Within Coverage D, is any fair loss from a rental covered?",
+    "answerOptions": [
+      { "answer": "yes", "isCorrect": true, "points": 1 },
+      { "answer": "no", "isCorrect": false, "points": 0 }
+    ]
+  },
+
+  {
+    "question": "The insured arranged for a competent person to enter their dwelling daily and while the insured was away for 5 days a pipe froze and the main floor flooded.  Is the insured covered for water damage?",
+    "answerOptions": [
+      { "answer": "yes", "isCorrect": true, "points": 1 },
+      { "answer": "no", "isCorrect": false, "points": 0 }
+    ]
+  },
+
+  {
+    "question": "Can a homeowner claim $2000 for a work laptop which was stolen from their home office?",
+    "answerOptions": [
+      { "answer": "yes", "isCorrect": true, "points": 1 },
+      { "answer": "no", "isCorrect": false, "points": 0 }
+    ]
+  },
+
+  {
+    "question": "With the rapid growth of home based businesses how can an insured be provided the necessary coverage?",
+    "answerOptions": [
+      { "answer": "With a rider", "isCorrect": true, "points": 1 },
+      { "answer": "With a floater", "isCorrect": false, "points": 0 },
+      {
+        "answer": "is is not possible, the insured needs to get a commercial property insurance",
+        "isCorrect": true,
+        "points": 1
+      }
+    ]
+  },
+
+  {
+    "question": "Computer software and computer hardware is limied to a special limit of insurance of $2500?",
+    "answerOptions": [
+      { "answer": "no", "isCorrect": true, "points": 1 },
+      { "answer": "yes", "isCorrect": false, "points": 0 }
+    ]
+  },
+
+  {
+    "question": "What is no an exclusion for the Homeowners Basic Form?",
+    "answerOptions": [
+      {
+        "answer": "losses to applicances from power surges or brown outs.",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "buildings or structures used in whole or in par for business or farming purposes.",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "dwelling has been vacant for more than 30 consecutive days.",
+        "isCorrect": true,
+        "points": 1
+      }
+    ]
+  },
+
+  {
+    "question": "What is not an advantage of a Homeowners Comprehensive Form?",
+    "answerOptions": [
+      {
+        "answer": "Glass coverage restored after an Earthquake or snow slide.",
+        "isCorrect": true,
+        "points": 1
+      },
+      { "answer": "collapse", "isCorrect": false, "points": 0 },
+      { "answer": "smoke from fireplaces.", "isCorrect": true, "points": 1 }
+    ]
+  },
+
+  {
+    "question": "What is included in the Mobile Home Insurance policy which is not included in the Homeowners Form?",
+    "answerOptions": [
+      {
+        "answer": "built-in appliances and skirting",
+        "isCorrect": true,
+        "points": 1
+      },
+      { "answer": "there is no difference.", "isCorrect": false, "points": 0 },
+      { "answer": "Wear and tear", "isCorrect": true, "points": 1 }
+    ]
+  },
+
+  {
+    "question": "Can a rented seaonsal dwelling be insured under the Homeowners basic form coverage?",
+    "answerOptions": [
+      { "answer": "no", "isCorrect": true, "points": 1 },
+      { "answer": "yes", "isCorrect": false, "points": 0 }
+    ]
+  },
+
+  {
+    "question": "Broad Form insurance covers all risks except one, which one is the exception?",
+    "answerOptions": [
+      { "answer": "smoke", "isCorrect": true, "points": 1 },
+      { "answer": "water damage by freezer", "isCorrect": false, "points": 0 },
+      { "answer": "theft", "isCorrect": false, "points": 0 },
+      { "answer": "collpase", "isCorrect": false, "points": 0 },
+      {
+        "answer": "vehicles insured by owner or employee",
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+
+  {
+    "question": "Which of the following affects the premium rate?",
+    "answerOptions": [
+      { "answer": "All listed", "isCorrect": true, "points": 1 },
+      { "answer": "construction", "isCorrect": false, "points": 0 },
+      {
+        "answer": "claims history of clients' and similar business claims",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "the type of business is practiced within the insured premise",
+        "isCorrect": false,
+        "points": 0
+      },
+      { "answer": "location", "isCorrect": false, "points": 0 }
+    ]
+  },
+
+  {
+    "question": "Which describes re-insurance?",
+    "answerOptions": [
+      {
+        "answer": "when commercial risk is so large insurance company enters insurance with another company.",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "used to penalize the insured on partial loses who did not purchase enough insurance.",
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+
+  {
+    "question": "What is the subrogration clause?",
+    "answerOptions": [
+      {
+        "answer": "Insurers can waive their write to sue parties of interest.",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "used to penalize the insured on partial loses who did not purchase enough insurance.",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Insurer can waive their right to sue parties of interest.",
+        "isCorrect": true,
+        "points": 0
+      },
+      {
+        "answer": "when commercial risk is so large insurance company enters insurance with another company.",
+        "isCorrect": true,
+        "points": 0
+      }
+    ]
+  },
+
+  {
+    "question": "What is the reinstatement clause?",
+    "answerOptions": [
+      {
+        "answer": "Ensures the amount of coverage before the loss is equal to the amount of coverage after the loss.",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "used to penalize the insured on partial loses who did not purchase enough insurance.",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Insurer can waive their right to sue parties of interest.",
+        "isCorrect": true,
+        "points": 0
+      },
+      {
+        "answer": "when commercial risk is so large insurance company enters insurance with another company.",
+        "isCorrect": true,
+        "points": 0
+      }
+    ]
+  },
+
+  {
+    "question": "Which is another commercial coverage?",
+    "answerOptions": [
+      { "answer": "All listed", "isCorrect": true, "points": 1 },
+      {
+        "answer": "property away form premises",
+        "isCorrect": false,
+        "points": 0
+      },
+      { "answer": "glass insurance", "isCorrect": true, "points": 0 },
+      { "answer": "boiler and machinery", "isCorrect": true, "points": 0 },
+      { "answer": "crime insurance", "isCorrect": true, "points": 0 }
+    ]
+  },
+
+  {
+    "question": "Everything is covered regarding the builder's risk contractor's insurance, which one is the exception?",
+    "answerOptions": [
+      {
+        "answer": "Ends when the building is occupied or no work for the last 15 days.",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "covers buildings while being built",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "contractor or owner can insure",
+        "isCorrect": true,
+        "points": 0
+      },
+      {
+        "answer": "materials used in construction",
+        "isCorrect": true,
+        "points": 0
+      },
+      {
+        "answer": "temporary structures when needed.",
+        "isCorrect": true,
+        "points": 0
+      }
+    ]
+  },
+
+  {
+    "question": "The business interruption Earnings Form begins on the date of destruction or damage and ends when...?",
+    "answerOptions": [
+      { "answer": "the premises is rebuilt.", "isCorrect": true, "points": 1 },
+      {
+        "answer": "the pre loss turn-over is re-established.",
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+
+  {
+    "question": "The business interruption Profits Form begins on the date of destruction or damage and ends when...?",
+    "answerOptions": [
+      { "answer": "the premises is rebuilt.", "isCorrect": true, "points": 0 },
+      {
+        "answer": "the pre loss turn-over is re-established.",
+        "isCorrect": false,
+        "points": 1
+      }
+    ]
+  },
+
+  {
+    "question": "What is a surety bond similar to?",
+    "answerOptions": [
+      { "answer": "loan", "isCorrect": true, "points": 1 },
+      { "answer": "grant", "isCorrect": false, "points": 0 },
+      { "answer": "deposit", "isCorrect": false, "points": 0 }
+    ]
+  },
+
+  {
+    "question": "The three C's for surety bonds?",
+    "answerOptions": [
+      {
+        "answer": "character, capacity, capital",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "character, capacity, customer",
+        "isCorrect": false,
+        "points": 0
+      },
+      { "answer": "character, cost, capital", "isCorrect": false, "points": 0 }
+    ]
+  },
+
+  {
+    "question": "What is a tort?",
+    "answerOptions": [
+      { "answer": "private wrong or injury", "isCorrect": true, "points": 1 },
+      {
+        "answer": "the ability to seek punishment",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "indirect losses insured by property policy",
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+
+  {
+    "question": "A bailee takes extraordinary care of the property it their possession.",
+    "answerOptions": [
+      { "answer": "false", "isCorrect": true, "points": 1 },
+      { "answer": "true", "isCorrect": false, "points": 0 }
+    ]
+  },
+
+  {
+    "question": "A bailee is someone who has the possession of the property of another for the purpose of...",
+    "answerOptions": [
+      { "answer": "repair, cleaning, storage", "isCorrect": true, "points": 1 },
+      { "answer": "housesitting", "isCorrect": false, "points": 0 },
+      { "answer": "business", "isCorrect": false, "points": 0 }
+    ]
+  },
+
+  {
+    "question": "There are three exceptions when an employer does not have responsibility for the employee it is...",
+    "answerOptions": [
+      {
+        "answer": "frolic, delegates work without permission, employees uses employers property without permission",
+        "isCorrect": true,
+        "points": 1
+      },
+      { "answer": "there are no exceptions", "isCorrect": false, "points": 0 },
+      {
+        "answer": "frolic, drive the work truck with permission, enters company property after work hours without permission",
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+
+  {
+    "question": "Parents are not responsbile for the torts of their children, without exceptions.",
+    "answerOptions": [
+      { "answer": "false", "isCorrect": true, "points": 1 },
+      { "answer": "true", "isCorrect": false, "points": 0 }
+    ]
+  },
+
+  {
+    "question": "A Joint tortfeasors is ...",
+    "answerOptions": [
+      {
+        "answer": "each party is liable for the full amount of damages.",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "both parties are responsible but only one pays and then the parties go to court to find out who.",
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+
+  {
+    "question": "What is an element which is not part of a tort?",
+    "answerOptions": [
+      {
+        "answer": "Damages from a related non-proximate result.",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "Damages from a related proximate result.",
+        "isCorrect": false,
+        "points": 0
+      },
+      { "answer": "Duty owed.", "isCorrect": false, "points": 0 },
+      { "answer": "Duty breached.", "isCorrect": false, "points": 0 }
+    ]
+  },
+
+  {
+    "question": "A person who commits a worng against an innocent party is referred to as?",
+    "answerOptions": [
+      { "answer": "tortfeasor", "isCorrect": true, "points": 1 },
+      { "answer": "the mean person", "isCorrect": false, "points": 0 },
+      { "answer": "an unlawful person", "isCorrect": false, "points": 0 }
+    ]
+  },
+
+  {
+    "question": "Bodily injury is defined as: physical injury to the body, sickness, disease or death",
+    "answerOptions": [
+      { "answer": "true", "isCorrect": true, "points": 1 },
+      { "answer": "false", "isCorrect": false, "points": 0 }
+    ]
+  },
+
+  {
+    "question": "Property damage is defined as actualy physical injury to property, loss of use of that property.",
+    "answerOptions": [
+      { "answer": "true", "isCorrect": true, "points": 1 },
+      { "answer": "false", "isCorrect": false, "points": 0 }
+    ]
+  },
+
+  {
+    "question": "Supplementary payments include all but one in the list.  Which is the exception?",
+    "answerOptions": [
+      { "answer": "all expenses incurred", "isCorrect": true, "points": 1 },
+      { "answer": "costs of defense", "isCorrect": false, "points": 0 },
+      { "answer": "reasonable expenses", "isCorrect": false, "points": 0 },
+      { "answer": "court costs", "isCorrect": false, "points": 0 },
+      { "answer": "interest on judgement", "isCorrect": false, "points": 0 }
+    ]
+  },
+
+  {
+    "question": "If a liability claim is filed againsted the insured, should they try to settle it themselves?",
+    "answerOptions": [
+      { "answer": "no", "isCorrect": true, "points": 1 },
+      { "answer": "yes", "isCorrect": false, "points": 0 }
+    ]
+  },
+
+  {
+    "question": "An occurence is defined as an event that occurs suddenly and unexpectedly or occurs over a long period of time?",
+    "answerOptions": [
+      { "answer": "true", "isCorrect": true, "points": 1 },
+      { "answer": "false", "isCorrect": false, "points": 0 }
+    ]
   }
 ]
