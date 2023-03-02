@@ -1358,11 +1358,6 @@
     "question": "What is the subrogration clause?",
     "answerOptions": [
       {
-        "answer": "Insurers can waive their write to sue parties of interest.",
-        "isCorrect": true,
-        "points": 1
-      },
-      {
         "answer": "used to penalize the insured on partial loses who did not purchase enough insurance.",
         "isCorrect": false,
         "points": 0
@@ -1370,7 +1365,7 @@
       {
         "answer": "Insurer can waive their right to sue parties of interest.",
         "isCorrect": true,
-        "points": 0
+        "points": 1
       },
       {
         "answer": "when commercial risk is so large insurance company enters insurance with another company.",

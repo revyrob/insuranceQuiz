@@ -15,7 +15,7 @@ export default function Homepage() {
     const userNum = e.target.num.value;
     e.preventDefault();
     if (userNum === "") {
-      alert('The number of questions defaults to 20');
+      alert('The number of questions defaults to 20.  Press Start.');
       setNum('20')
       e.preventDefault();
     } else {
@@ -26,20 +26,21 @@ export default function Homepage() {
     <section className='p-4 h-[400px] flex flex-col items-center justify-evenly'>
         <h1 className='text-xl font-semibold'>Fundamentals of Insurance Quiz</h1>
         {/* <h3>50 Random Questions</h3> */}
-        <form className="" onSubmit={numHandler}>
+        <form className="flex flex-col items-center justify-center" onSubmit={numHandler}>
           <label>
             <h2 className="">Enter how many questions you would like:</h2>
-            <div className="">
+            <div className="flex flex-col items-center justify-center mt-4">
               <div className="">
                 <input
-                  className=""
+                  className="border border-gray-400 rounded shadow w-[60px] h-[40px] mr-4 hover:bg-gray-100 text-gray-800"
                   type="num"
                   name="num"
                   placeholder=""
                 />
-              </div>
-              <button className="g-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow" type="submit">
+                <button className="g-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow" type="submit">Submit
               </button>
+              </div>
+              
             </div>
           </label>
         </form>

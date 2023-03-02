@@ -65,8 +65,9 @@ export default function Quiz() {
       setScore(score + points);
     }
     if (answerSelected === isCorrect) {
-      setAnswerCorrect(true);
+        setAnswerCorrect(true);
     } else {
+      alert('answer is wrong.')
       setAnswerCorrect(false);
     }
     
@@ -83,7 +84,11 @@ export default function Quiz() {
     } else {
       setTimeout(() => setShowScore(true), 300);
     }
+
+    //reset the setAnswerCorrect
+    setAnswerCorrect(false)
   };
+
   return (
     <>
     {showScore ? (
@@ -131,7 +136,7 @@ export default function Quiz() {
                   className={
                     answerOption.isCorrect && answerSelected && answerCorrect
                     ? "border border-gray-400 rounded shadow my-4 bg-green-400"
-                    : "border border-gray-400 rounded shadow my-4 bg-white "
+                    : "border border-gray-400 rounded shadow my-4 bg-white hover:bg-gray-200"
                   }
                   >
                   {answerOption.answer}
