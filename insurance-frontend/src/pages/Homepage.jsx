@@ -18,8 +18,10 @@ export default function Homepage() {
       alert('The number of questions defaults to 20.  Press Start.');
       setNum('20')
       e.preventDefault();
+      //make a navigator to the quiz page
     } else {
       setNum(userNum);
+      //make a navigator to the quiz page
     }
   };
   return (
@@ -32,12 +34,12 @@ export default function Homepage() {
             <div className="flex flex-col items-center justify-center mt-4">
               <div className="">
                 <input
-                  className="border border-gray-400 rounded shadow w-[60px] h-[40px] mr-4 hover:bg-gray-100 text-gray-800"
+                  className="border border-gray-400 rounded shadow w-[60px] h-[40px] mr-4 hover:bg-gray-100 text-gray-800 text-center"
                   type="num"
                   name="num"
                   placeholder=""
                 />
-                <button className="g-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow" type="submit">Submit
+                <button className="g-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow" type="submit">Enter
               </button>
               </div>
               
