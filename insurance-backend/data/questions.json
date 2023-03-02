@@ -966,7 +966,7 @@
   },
 
   {
-    "question": "What is not a property exclusion?",
+    "question": "Property policies exclude certain types of property.  All of the following properties are generally excluded, except one,  Select the exception.",
     "answerOptions": [
       {
         "answer": "A building that to the insured's knowledge has been vacant for 20 days.",
@@ -1029,11 +1029,11 @@
         "points": 1
       },
       { "answer": "replacement cost", "isCorrect": false, "points": 0 },
-      { "answer": "depreciation", "isCorrect": true, "points": 1 },
+      { "answer": "depreciation", "isCorrect": false, "points": 0 },
       {
         "answer": "purchase price - depreciation",
-        "isCorrect": true,
-        "points": 1
+        "isCorrect": false,
+        "points": 0
       }
     ]
   },
@@ -1043,8 +1043,8 @@
     "answerOptions": [
       {
         "answer": "replacement shall be on any site which the insured deems usable.",
-        "isCorrect": true,
-        "points": 1
+        "isCorrect": false,
+        "points": 0
       },
       {
         "answer": "replacement shall be effected by the insured with due diligence and dispatch.",
@@ -1052,14 +1052,14 @@
         "points": 0
       },
       {
-        "answer": "replacement shall eb on the same site or and adjacent site.",
+        "answer": "replacement shall be on the same site or and adjacent site.",
         "isCorrect": true,
         "points": 1
       },
       {
         "answer": "settlement on a replacement cost basis shall be made only when replacement has actually been effected.",
-        "isCorrect": true,
-        "points": 1
+        "isCorrect": false,
+        "points": 0
       }
     ]
   },
@@ -1108,7 +1108,7 @@
   },
 
   {
-    "question": "What is not considered commercial property property.",
+    "question": "What is not considered commercial property.",
     "answerOptions": [
       {
         "answer": "detached private structures",
@@ -1156,14 +1156,6 @@
     "answerOptions": [
       { "answer": "true", "isCorrect": true, "points": 1 },
       { "answer": "false", "isCorrect": false, "points": 0 }
-    ]
-  },
-
-  {
-    "question": "Does replacement cost include depreciation?",
-    "answerOptions": [
-      { "answer": "no", "isCorrect": true, "points": 1 },
-      { "answer": "yes", "isCorrect": false, "points": 0 }
     ]
   },
 
@@ -1235,8 +1227,8 @@
       { "answer": "With a floater", "isCorrect": false, "points": 0 },
       {
         "answer": "is is not possible, the insured needs to get a commercial property insurance",
-        "isCorrect": true,
-        "points": 1
+        "isCorrect": false,
+        "points": 0
       }
     ]
   },
@@ -1250,7 +1242,7 @@
   },
 
   {
-    "question": "What is no an exclusion for the Homeowners Basic Form?",
+    "question": "There are many exclusions on the Homeowners Basic Form.  What is not an exclusion for the Homeowners Basic Form within the list below?",
     "answerOptions": [
       {
         "answer": "losses to applicances from power surges or brown outs.",
@@ -1258,14 +1250,14 @@
         "points": 1
       },
       {
-        "answer": "buildings or structures used in whole or in par for business or farming purposes.",
+        "answer": "buildings or structures used in whole or in part for business or farming purposes.",
         "isCorrect": false,
         "points": 0
       },
       {
         "answer": "dwelling has been vacant for more than 30 consecutive days.",
-        "isCorrect": true,
-        "points": 1
+        "isCorrect": false,
+        "points": 0
       }
     ]
   },
@@ -1279,7 +1271,7 @@
         "points": 1
       },
       { "answer": "collapse", "isCorrect": false, "points": 0 },
-      { "answer": "smoke from fireplaces.", "isCorrect": true, "points": 1 }
+      { "answer": "smoke from fireplaces.", "isCorrect": false, "points": 0 }
     ]
   },
 
@@ -1292,7 +1284,7 @@
         "points": 1
       },
       { "answer": "there is no difference.", "isCorrect": false, "points": 0 },
-      { "answer": "Wear and tear", "isCorrect": true, "points": 1 }
+      { "answer": "Wear and tear", "isCorrect": false, "points": 0 }
     ]
   },
 
@@ -1390,12 +1382,12 @@
       },
       {
         "answer": "Insurer can waive their right to sue parties of interest.",
-        "isCorrect": true,
+        "isCorrect": false,
         "points": 0
       },
       {
         "answer": "when commercial risk is so large insurance company enters insurance with another company.",
-        "isCorrect": true,
+        "isCorrect": false,
         "points": 0
       }
     ]
@@ -1410,9 +1402,9 @@
         "isCorrect": false,
         "points": 0
       },
-      { "answer": "glass insurance", "isCorrect": true, "points": 0 },
-      { "answer": "boiler and machinery", "isCorrect": true, "points": 0 },
-      { "answer": "crime insurance", "isCorrect": true, "points": 0 }
+      { "answer": "glass insurance", "isCorrect": false, "points": 0 },
+      { "answer": "boiler and machinery", "isCorrect": false, "points": 0 },
+      { "answer": "crime insurance", "isCorrect": false, "points": 0 }
     ]
   },
 
@@ -1431,17 +1423,17 @@
       },
       {
         "answer": "contractor or owner can insure",
-        "isCorrect": true,
+        "isCorrect": false,
         "points": 0
       },
       {
         "answer": "materials used in construction",
-        "isCorrect": true,
+        "isCorrect": false,
         "points": 0
       },
       {
         "answer": "temporary structures when needed.",
-        "isCorrect": true,
+        "isCorrect": false,
         "points": 0
       }
     ]
@@ -1462,10 +1454,10 @@
   {
     "question": "The business interruption Profits Form begins on the date of destruction or damage and ends when...?",
     "answerOptions": [
-      { "answer": "the premises is rebuilt.", "isCorrect": true, "points": 0 },
+      { "answer": "the premises is rebuilt.", "isCorrect": false, "points": 0 },
       {
         "answer": "the pre loss turn-over is re-established.",
-        "isCorrect": false,
+        "isCorrect": true,
         "points": 1
       }
     ]
@@ -1591,7 +1583,7 @@
   },
 
   {
-    "question": "A person who commits a worng against an innocent party is referred to as?",
+    "question": "A person who commits a wrong against an innocent party is referred to as?",
     "answerOptions": [
       { "answer": "tortfeasor", "isCorrect": true, "points": 1 },
       { "answer": "the mean person", "isCorrect": false, "points": 0 },
@@ -1639,6 +1631,449 @@
     "answerOptions": [
       { "answer": "true", "isCorrect": true, "points": 1 },
       { "answer": "false", "isCorrect": false, "points": 0 }
+    ]
+  },
+  {
+    "question": "All changes to an exisiting insurance policy must be in writing.  Which document does the insurer issue when both the insurer have aggreed to a change in the terms of the policy?",
+    "answerOptions": [
+      { "answer": "a rider", "isCorrect": false, "points": 0 },
+      { "answer": "an endorsement", "isCorrect": true, "points": 1 },
+      { "answer": "a binder", "isCorrect": false, "points": 0 },
+      { "answer": "a floater", "isCorrect": false, "points": 0 }
+    ]
+  },
+  {
+    "question": "Documents that add additional coverage to those all ready on policies and are like 'mini' policies are called?",
+    "answerOptions": [
+      { "answer": "a rider", "isCorrect": true, "points": 1 },
+      { "answer": "an endorsement", "isCorrect": false, "points": 0 },
+      { "answer": "a binder", "isCorrect": false, "points": 0 },
+      { "answer": "a floater", "isCorrect": false, "points": 0 }
+    ]
+  },
+  {
+    "question": "Only one fo the following statements regarding Statutory Conidition No.1 - Misrepresentation is correct.",
+    "answerOptions": [
+      {
+        "answer": "Any description of the property that proves to be incorrect constitutes a Misrepresentation",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Withholding information about previous cancellations or refusal of insurance is not a Misrepresentation",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Statements made by the applicant, which lead the insurer to believe that the risk is better than it actually is, are considered Misrepresentation.",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "A Misrepresentation has no effect whatsoever on the coverage under the policy, even when the insurer is able to prove misrepresentation.",
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "question": "Only one fo the following statements regarding Statutory Conidition No.1 - Misrepresentation is correct.",
+    "answerOptions": [
+      {
+        "answer": "Any description of the property that proves to be incorrect constitutes a Misrepresentation",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Withholding information about previous cancellations or refusal of insurance is not a Misrepresentation",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Statements made by the applicant, which lead the insurer to believe that the risk is better than it actually is, are considered Misrepresentation.",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "A Misrepresentation has no effect whatsoever on the coverage under the policy, even when the insurer is able to prove misrepresentation.",
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "question": "In all Homeowners the Basis of Claim Payment on dwelling building, detached privated structures and personal property is generally based on Replacement Cost.  However, in the certain circumstances the insurer will provide settlement only on an Actualy Cash Value bases.  Which of the following losses will be settled on an Actual Cash Value basis?",
+    "answerOptions": [
+      {
+        "answer": "Reconstruction at the insured location after a fire destroyed the home.",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Replacement of the hardwood floor due to damage from a ruptured water pipe.",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Replacement of the insured's antique doll house which was smashed by burglars.",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "Reconstruction of the fence which was blown over by a windstorm.",
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "question": "All Homeowners policies include the section of 'Extensions of Coverage'.  Which of the following statements pertaining to this coverage section is incorrect",
+    "answerOptions": [
+      {
+        "answer": "The insurer will cover lock replacement when the insured's keys have been lost or stolen",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "The insurer will cover property that was necessarliy removed for up to thirty days at another location.",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "The insurer will pay the cost to repair the tear-out damage to a wall, replacing a leaking water pipe that runs hot water to the kitchen sink.",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "The insurer will pay for loss of freezer food which had spoiled during a power failure cause when lightning struck a power station.",
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "question": "Under the Homeowners Basic Form (IBC1151) all of the following losses are excluded, except one.  Select the loss that is covered under this form",
+    "answerOptions": [
+      {
+        "answer": "Smoke damage from the fire place in the insured's living room.",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Damage to a water pipe which exploded as a result of water hammer",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Damage to the front porch cause by impact of a vehicle driven by the insured",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Water damage from a ruptured pipe due to freezing which occurred while the insured was away on a short ski holiday and returning from it on the fourth day.",
+        "isCorrect": true,
+        "points": 1
+      }
+    ]
+  },
+  {
+    "question": "All of the following statements regarding the Condominium Unit Owners Form (IBC1132) are correct, except one.  Select the statement, which is incorrect.",
+    "answerOptions": [
+      {
+        "answer": "This form covers the purchase value of the unit, plus the value of the personnal property and all improvements and betterments made by the insured.",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "This form is designed to cover the value of the personal property, and all the improvements and betterments made be the insured.",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "This form is designed to cover the value of personal property, unit improvements and betterments made be the insured, and Loss Assessment.",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "This form provides coverage for personal property and unit improvments and betterments made by the insured on a Replacement Cost basis",
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "question": "The Loss Assessment coverage included in the Condominium Unit Owners Form (IBC1132) would respond to pay in all of the following instances, except one.  Select the exception.",
+    "answerOptions": [
+      {
+        "answer": "When the Condominium Corporation carries a large deductible on its policy.",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "When the Condominium Unit Owner carries a large deductible on his policy.",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "The Condominium Corporation's policy only pays a portion of a partial loss because of a co-insurance penality.",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "The Condominium Corporation's policy does not respond to pay a loss because the corporation breached a policy condition.",
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "question": "Your client is leasing retail space in the local shopping mall.  Before she is ready to open her business she is renovating the premises and installing new floor covering, wall panelling, light fixtures and a security system, which is wired into the electrical system of the mall building.  As her broker you advise her that these values.",
+    "answerOptions": [
+      {
+        "answer": "Need to be insured under the landlord's building insurance beause once installed they become a permanent part of the building.",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Need to insured as Building coverage within her own property policy.",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Need to be insured under her own property policy by including these values in the amount of insurance for equipment",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "Don't need to be insured at all, because in the event of a loss the the landlord's insurance will automatically cover the cost to replace or repair the improvements she has made.",
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "question": "One of the main differences between the Earnings and the Profits Form is how long the insurer will pay for loss of income.  Your client has asked you to explain up to how long payment will be made under the Earnings Form.  You give her the following answer.",
+    "answerOptions": [
+      {
+        "answer": "Payment under this Form starts on the date of the loss and continues until the property has been reinstated, however, not exceeding 12 months.",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "Payment under this Form starts on the date of the loss and continues until the profits are at the same level as before the loss.",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Payment under this Form stars on the date of the loss and continues until the policy expires.",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Payment under this Form starts on the date of the loss and continues until the end of the 12 months even if the insured has reopened the business after 3 months.",
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "question": "Civil Law covers two areas, Tort Law and Contract Law.  In Tort Law an action will only be succcessful when the plaintiff can prove all of the following elements, except one.  Select the one, which is  not an element of tort action.",
+    "answerOptions": [
+      {
+        "answer": "The plaintiff must show that the defendant owed a moral duty of care.",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "The plaintiff must show the defendant owed a legal duty of care.",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "The plaintiff must show that the defendant breached the legal duty of care.",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "The plaintiff must prove that damages were suffered as the proximate result of the defendant's action.",
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "question": "The main legal system in all provinces, except Quebec, is the Common Law System.  We also have Statue Law, which differs form Common Law.  All of the following statements regarding Statute Law are true, except one.  Select the statement that is false.",
+    "answerOptions": [
+      {
+        "answer": "Statute Law is written law.",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Statute Lase is based on precedent.",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "Statute Law is enacted by federal or provincial legislation.",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Statute Laws can be set for acts where no precedent exists.",
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "question": "In Common Law, persons who enter the premises of an occupier are categorized according to the purpose of their presence.  The legal duty of care owed to an invitee is",
+    "answerOptions": [
+      {
+        "answer": "To make the premises safe from any danger whatsoever.",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "To warn the invitee of any dangers on the premises, which are known to the occupier",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "To protect the invitee from any dnagers the occupier is aware of or should have been aware of",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "To refrain from causing intentional harm to the invitee while on the premises",
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "question": "The majority of liability policies have certain characteristics in common.  All of the following characteristics, except one, apply to most liability policies.  Select the one, which does not apply.",
+    "answerOptions": [
+      {
+        "answer": "The insurer coverst the liability of the insured for bolidy injury and property damage caused to a third party.",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "The liability policy covers payment for compensatory, exemplary and punitive damages, and nominal damages awarded by the courts.",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "Payment is made only when the insured is found legally liable for bodily injury and property damage.",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Payment of compensatory damages is made only for unintentional torts",
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "question": "Most liability policies provide coverage on an occurrence basis.  All of the following statements, except one, correctly describe what the policy covers.  Select the statement, which is incorrect.",
+    "answerOptions": [
+      {
+        "answer": "The amout of insurance stated on the policy is the maximum amount payable for all occurrences, which happened during the policy period.",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "The policy covers bodily injury or property damage resulting form an accident.",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "The policy covers bodily injury or property damage caused by an exposure to a harmful condition over a long period of time.",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "The amount of insurance stated on the policy is available for each occurrence during the policy period.",
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "question": "The liability policy also contains the 'Supplementary Payments' Insuring Agreement.  All of the following statements regarding 'Supplementary Payments' are true, except one.  Select the statement that is false.",
+    "answerOptions": [
+      {
+        "answer": "All costs covered under this Insuring Agreement are paid in addition to the limit of insurance stated on the policy.",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "The amount of damages awarded in excess of the limit of insurance are covered under this Insuring Agreement.",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "Supplementary Payments cover all legal costs incurred to establish a defense in a claim.",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "This Insuring Agreement covers the interest on damages awarded from the date of the judgement until payment is made to the third party, but only for those amounts that within the limit of insurance.",
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "question": "All of the following statments regarding Coverage F - Voluntary Medical Payments are true, except one.  Select the statement which is false.",
+    "answerOptions": [
+      {
+        "answer": "There is no need to establish the insured's negligence before payment is made to cover medical expeneses of an injured third party.",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Payments for medical expenses are made up to one year from teh date of the accident.",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Coverage is provided only when the third party does not have other health insurance, whih would pay the medical expenses.",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Coverage is provided for medical payment incurred by an insurred while travelling outside of Canada.",
+        "isCorrect": true,
+        "points": 1
+      }
+    ]
+  },
+  {
+    "question": "Your clinet, who owns and operates a Pizza Take-out and Delivery Service, has just received notice of a bodily injury claim by a customer against his business.  The customer alleges that he bit on a chicken bone in the topping of his pizza and broke a tooth, which required substantial dental work.  His business liability exposures are covered under the Commercial General Liability Policy.  Which of the following coverages under this policy would respond to this claim?",
+    "answerOptions": [
+      {
+        "answer": "Premises and Operation Liability",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Personal Injury Liability",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Products Liability",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "Completed Operations Liability",
+        "isCorrect": false,
+        "points": 0
+      }
     ]
   }
 ]
