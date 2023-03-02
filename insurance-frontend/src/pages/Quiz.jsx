@@ -4,8 +4,12 @@ import { v4 as uuidv4 } from "uuid";
 import Final from '../pages/Final';
 import { Line } from "rc-progress";
 import axios from "axios";
+//import Modal from "react-bootstrap/Modal";
+//import Button from "react-bootstrap/Button";
 
 export default function Quiz() {
+  //to show modal box when answer is wrong and with the correct answer
+  //const [show, setShow] = useState(false);
   //num of questions come from homepage session storage when user entered in a number
   //if they did not enter in a number it defaults to 20
   let num = sessionStorage.getItem("num");
@@ -21,6 +25,10 @@ export default function Quiz() {
 
   const REACT_APP_API_SERVER_URL = process.env.REACT_APP_API_SERVER_URL;
   
+  //functions for opening and closing Modal
+  //const handleClose = () => setShow(false);
+  //const handleShow = () => setShow(true);
+
   //get data from the backend
   const getData = () => {
     axios
@@ -67,8 +75,9 @@ export default function Quiz() {
     if (answerSelected === isCorrect) {
         setAnswerCorrect(true);
     } else {
+      //setShow(true)
       alert('answer is wrong.')
-      setAnswerCorrect(false);
+      //setAnswerCorrect(false);
     }
     
     
@@ -140,12 +149,29 @@ export default function Quiz() {
                   }
                   >
                   {answerOption.answer}
+                  {/* <Modal show={show} onHide={handleShow}>
+              <Modal.Header closeButton>
+                <Modal.Title>Wrong response</Modal.Title>
+              </Modal.Header>
+              <Modal.Body>The correct response is:</Modal.Body>
+              <Modal.Body>{answerOption.isCorrect && answerOption.answer}</Modal.Body>
+              <Modal.Footer>
+                <Button variant="primary" onClick={handleClose}>
+                  Got it👍
+                </Button>
+              </Modal.Footer>
+            </Modal> */}
                   </button>
+                  
                   ))}
+                 
+               
                   </div>
                   </div>
                   </div>
+                  
                   )}
+                  
                   </>
                   )
                 }
