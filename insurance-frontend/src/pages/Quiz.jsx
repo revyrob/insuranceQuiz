@@ -69,15 +69,11 @@ export default function Quiz() {
     //let answerTimer;
     //let questionTimer;
     setAnswerSelected(true);
-    if (isCorrect) {
+    if (isCorrect && (answerSelected === isCorrect)) {
       setScore(score + points);
-    }
-    if (answerSelected === isCorrect) {
-        setAnswerCorrect(true);
+      setAnswerCorrect(true); 
     } else {
-      //setShow(true)
       alert('answer is wrong.')
-      //setAnswerCorrect(false);
     }
     
     
@@ -144,7 +140,7 @@ export default function Quiz() {
                   }
                   className={
                     answerOption.isCorrect && answerSelected && answerCorrect
-                    ? "border border-gray-400 rounded shadow my-4 bg-green-400"
+                    ? "border border-gray-400 rounded shadow my-4 bg-green-400 hover:bg-gray-200"
                     : "border border-gray-400 rounded shadow my-4 bg-white hover:bg-gray-200"
                   }
                   >
