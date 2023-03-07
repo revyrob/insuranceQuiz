@@ -2075,5 +2075,201 @@
         "points": 0
       }
     ]
+  },
+  {
+    "question": "For an autoplan in BC what is the minimum 3rd party liability limit required?",
+    "answerOptions": [
+      {
+        "answer": "$300,000",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "$500,000",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "$200,000",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "$150,000",
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "question": "What is ICBC not responsible for?",
+    "answerOptions": [
+      {
+        "answer": "Driving Tests",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Vehicle Regsitration",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Policing bad drivers",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "Road Safety Programs",
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "question": "New residents to BC must obtain Autoplan coverage and register their vehicles within how many days after taking up resident?",
+    "answerOptions": [
+      {
+        "answer": "within 5 days",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "within 7 days",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "within 30 days",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "if they are coming from another Canadian province they don't have to register their vehicle in BC",
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "question": "What is 'crash forgiveness' in regards to Autoplan crash history",
+    "answerOptions": [
+      {
+        "answer": "Drivers get forgiven for one crash every 5 years.",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "When drivers have 20 years experience of driving and the most recent 10 years they have no accidents.",
+        "isCorrect": true,
+        "points": 1
+      },
+
+      {
+        "answer": "Drivers get one free crash within their lifetime of driving experience.",
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "question": "When more than one other named driver is listed on the policy, the lowest risk will be considered.",
+    "answerOptions": [
+      {
+        "answer": "false",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "true",
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "question": "Principle driver factor represents 75% of the combined driver factor.",
+    "answerOptions": [
+      {
+        "answer": "true",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "false",
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "question": "when a driver with a learners' license is listed an additional fee will be applied.",
+    "answerOptions": [
+      {
+        "answer": "true",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "false",
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "question": "A inexperienced drivers receives a reduced driver factor a number of ways.  In which way will they not receive a reduced driver factor",
+    "answerOptions": [
+      {
+        "answer": "when there is two crashed in 5 years",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "when there is one crash in 5 years",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "When they are crash free for 5 years",
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "question": "How can an driver avoid unlisted driver?",
+    "answerOptions": [
+      {
+        "answer": "Add a free policy, Unlisted Driver Protection",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "There isn't a way to avoid this.",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Extend driver coverage for a fee.",
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "question": "Collision and Comprehensive provides the best protection?",
+    "answerOptions": [
+      {
+        "answer": "true",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "false",
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
   }
 ]
