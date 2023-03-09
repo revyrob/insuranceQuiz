@@ -21,19 +21,21 @@ function Question({questions}) {
         <ul className="">
         {questions &&
           questions.map((question) => (
-            <li key={question.indexOf} className="">
-            <p className='bg-red-500'>{question.question}</p>
+            <li key={question.indexOf} className="mx-auto my-4 px-4 py-8  md:w-3/4 flex flex-col items-center justify-evenly bg-blue-900 text-white rounded-lg ">
+            <p className='text-lg'>{question.question}</p>
+            <div className="flex flex-col bg-red text-black">
         {question.answerOptions && getRandom((question.answerOptions), (question.answerOptions.length)).map((r)=>(
             
             <p
             key={r.index}
             className={
-                r.isCorrect ? 'bg-green-800 text-white':
-                'bg-white text-black'
+                r.isCorrect ? 'border border-white rounded shadow my-4 p-4 bg-green-400 ':
+                'border border-white rounded shadow my-2 p-2 bg-white '
             }>
                 {r.answer}
 </p>
-))}</li>))}</ul>
+
+))}</div></li>))}</ul>
                     )
                 }
                 
