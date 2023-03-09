@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Add from "./pages/Add";
 import GameIntro from "./pages/GameIntro";
 import Homepage from './pages/Homepage';
 import NotFound from "./pages/NotFound";
@@ -18,6 +19,8 @@ function App() {
       <Route path="/gameIntro" element={<GameIntro />} />
 
       <Route path="/quiz" element={<Quiz />} />
+      <Route path="/add" element={<Add />} />
+
 
       <Route path="*" element={<NotFound />} />
     </Routes>
