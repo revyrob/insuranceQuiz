@@ -35,7 +35,14 @@ function Question({questions}) {
                 {r.answer}
 </p>
 
-))}</div></li>))}</ul>
+))}</div>
+{/* <Link to="/add">
+        <div className="flex flex-col w-10 justify-center align-middle ">
+        <img src={home} alt="home button" className="h-8 cursor-pointer" />
+        <p className="cursor-pointer">Home</p>
+        </div>
+        </Link> */}
+</li>))}</ul>
                     )
                 }
                 

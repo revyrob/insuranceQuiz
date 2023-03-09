@@ -14,6 +14,7 @@ app.use(cors());
 app.use(express.json());
 app.use("/questions", questionsRoute);
 app.use("/", questionsRoute);
+app.use("/add", questionsRoute);
 
 // app.get("/", (req, res) => {
 //   res.status(200).send("Welcome to The BJJ LogApp");

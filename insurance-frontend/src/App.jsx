@@ -19,6 +19,7 @@ function App() {
       <Route path="/gameIntro" element={<GameIntro />} />
 
       <Route path="/quiz" element={<Quiz />} />
+      
       <Route path="/add" element={<Add />} />
 
 
