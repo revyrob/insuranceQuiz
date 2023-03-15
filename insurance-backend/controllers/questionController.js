@@ -1,3 +1,4 @@
+const { read } = require("fs");
 const fs = require("fs/promises");
 
 const questions = "./data/questions.json";
@@ -45,9 +46,9 @@ const addQs = (req, res) => {
       //get the info and parse
       const questionparsed = JSON.parse(questionData);
       //set up a new const
-      console.log(req.body.question);
+      let newQ = req.body.question;
       const newQuestion = {
-        question: "Will be answered soon...",
+        question: newQ,
       };
       //push it
       questionparsed.push(newQuestion);
@@ -60,5 +61,34 @@ const addQs = (req, res) => {
     }
   });
 };
+
+/*
+ *Post new upload
+ */
+// const addQs = (req, res) => {
+//   console.log(req.body.question);
+//   readQuestionData((err, questionData) => {
+//     if (err) {
+//       res.send("error posting questions");
+//     } else {
+//       const parsedQuestionData = JSON.parse(questionData);
+
+//       //create a new video and push to array
+//       const newQ = {
+//         question: req.body.question,
+//         answerOptions: [],
+
+//         id: uuidv4(),
+//       };
+//       //push the new upload video to the json
+//       parsedQuestionData.push(newQ);
+
+//       //save the stringified data to the json file
+//       writeQuestionData(JSON.stringify(parsedQuestionData));
+
+//       res.status(201).send("upload question created");
+//     }
+//   });
+// };
 
 module.exports = { allQs, addQs };
