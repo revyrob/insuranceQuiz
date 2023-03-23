@@ -26,35 +26,12 @@ function writeQuestionData(data) {
 /*
  *get info from controller
  */
-
-router.route("/").get(usersController.allQs);
+router.route("/").get(questionController.allQs);
 
 /*
  *Post a question
  */
-router.post("/", (req, res) => {
-  console.log(req.body);
-  //   readQuestionData((err, questionData) => {
-  //     if (err) {
-  //       res.send("error while getting question data");
-  //     } else {
-  //       //get the info and parse
-  //       const questionparsed = JSON.parse(questionData);
-  //       //set up a new const
-  //       let newQ = req.body.question;
-  //       const newQuestion = {
-  //         question: newQ,
-  //       };
-  //       //push it
-  //       questionparsed.push(newQuestion);
 
-  //       //save the new json
-  //       writeQuestionData(JSON.stringify(questionparsed));
-
-  //       //send status
-  //       res.status(201).send("You have submitted info");
-  //     }
-  //   });
-});
+router.route("/").post(questionController.addQs);
 
 module.exports = router;

@@ -39,26 +39,33 @@ const allQs = (req, res) => {
  *Post a question
  */
 const addQs = (req, res) => {
-  readQuestionData((err, questionData) => {
-    if (err) {
-      res.send("error while getting question data");
-    } else {
-      //get the info and parse
-      const questionparsed = JSON.parse(questionData);
-      //set up a new const
-      let newQ = req.body.question;
-      const newQuestion = {
-        question: newQ,
-      };
-      //push it
-      questionparsed.push(newQuestion);
-
-      //save the new json
-      writeQuestionData(JSON.stringify(questionparsed));
-
-      //send status
-      res.status(201).send("You have submitted info");
+  router.post("/", (req, res) => {
+    // GUARD CLAUSE : FIELDS CANNOT BE EMPTY
+    if (!req.body.question) {
+      res.status(400).send("Fields cannot be left empty");
+      next();
     }
+    // fs.readFile((err, questions) => {
+    //   console.log("it arrived");
+    //   if (err) {
+    //     res.send("error while getting question data");
+    //   } else {
+    //     //get the info and parse
+    //     const questionparsed = JSON.parse(questions);
+    //     //set up a new const
+    //     let newQ = req.body.question;
+    //     const newQuestion = {
+    //       question: newQ,
+    //     };
+    //     //push it
+    //     questionparsed.push(newQuestion);
+
+    //     //save the new json
+    //     fs.writeFile(JSON.stringify(questionparsed));
+
+    //     //send status
+    //     res.status(201).send("You have submitted info");
+    //   }
   });
 };
 

@@ -29,18 +29,18 @@ export default function QuestionsList() {
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
     
-    console.log(questions)
+    // console.log(questions)
     
     return (
         <section >
         <h1 className='text-3xl text-blue-900 text-center py-4'>All Questions</h1>
 
         <div className='flex flex-row max-w-[1280px] mx-auto justify-evenly '>
-        <Link to="/add">
+        {/* <Link to="/add">
         <div>
               <button className='text-2xl  bg-gray-100 text-gray-800 hover:bg-blue-900 hover:text-white font-semibold py-2 px-6  border-gray-400 border-4 rounded shadow-[0_35px_60px_-15px_rgba(0,0,0,0.5)] '>Add Question</button>
         </div>
-        </Link>
+        </Link> */}
         <Link to="/">
         <div className="flex flex-col w-10 justify-center align-middle ">
         <img src={home} alt="home button" className="h-8 cursor-pointer" />
