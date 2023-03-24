@@ -75,9 +75,9 @@ export default function Quiz() {
       setShow(false);
       console.log(show)
     } else {
-      setShow(true);
-      console.log(show);
-      //alert('answer is wrong.')
+      //setShow(true);
+      //console.log(show);
+      alert('wrong answer.')
     }
     
     
