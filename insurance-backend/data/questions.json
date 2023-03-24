@@ -2271,5 +2271,80 @@
         "points": 0
       }
     ]
+  },
+  {
+    "question": "Insurance plays an important rold in managing financial risk.  The main purpose of insurance is?",
+    "answerOptions": [
+      {
+        "answer": "Enable the consumer to obtain a loan or a mortage",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Provide employment and investment capital",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Allow the spread of risk",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "Reduce losses through loss prevention and loss reduction",
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "question": "The definition of insurance in the Insurance Act includes all of the following import points, except one.  Pick the exception.",
+    "answerOptions": [
+      {
+        "answer": "Payment is made only when a certain peril has damaged the object of insurance",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Payment is limited to the actual amount of the loss - no more and no less",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "The indeminity mus always be in the form of a sum of money; no other method is permitted by law",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "There is no payment for losses that are deliberatley caused by an insured",
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "question": "the majority of insurance companies use independent brokers to sell thier insurance policiesto the public.  Which of the following statements does NOT apply to this system of distribution?",
+    "answerOptions": [
+      {
+        "answer": "Independent brokers receive commissions from their insurers for the business they produce",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Independent brokers represent more than one insurance company",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Independent brokers are employees of the insurance companies they represent",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "Independent brokers own all their own clients",
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
   }
 ]

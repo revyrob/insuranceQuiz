@@ -96,7 +96,6 @@ export default function Quiz() {
 
   return (
     <>
-                   {/* {wrongBox === true ? <div className='bg-red w-12'></div> : <div className='bg-yellow w-12'></div>} */}
 
     {showScore ? (
       ((score/num)*100) < 70 ? (
@@ -152,17 +151,17 @@ export default function Quiz() {
                   
                   ))}
                         
-                        <Modal show={show} onHide={handleShow}>
+                        <Modal className="mx-auto my-4 px-4 py-8 h-full w-full md:w-3/4 flex flex-col items-center justify-evenly bg-red-900 text-white rounded-lg " show={show} onHide={handleShow}>
               <Modal.Header closeButton>
-                <Modal.Title>Oops!</Modal.Title>
+                <Modal.Title>Wrong Answer</Modal.Title>
               </Modal.Header>
-              <Modal.Body>You have not entered a username.</Modal.Body>
+              <Modal.Body>Note this question and confirm your response within the Question page.</Modal.Body>
               <Modal.Footer>
                 {/* <Button variant="secondary" onClick={handleClose}>
                 Close
               </Button> */}
                 <Button variant="primary" onClick={handleClose}>
-                  Got it👍
+                  X
                 </Button>
               </Modal.Footer>
             </Modal>
