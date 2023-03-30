@@ -72,12 +72,12 @@ export default function Quiz() {
     if (isCorrect && (answerSelected === isCorrect)) {
       setScore(score + points);
       setAnswerCorrect(true); 
-      setShow(false);
+      // setShow(false);
       console.log(show)
     } else {
-      setShow(true);
-      console.log(show);
-      //alert('answer is wrong.')
+      // setShow(true);
+      // console.log(show);
+      alert('answer is wrong.')
     }
     
     
@@ -151,20 +151,7 @@ export default function Quiz() {
                   
                   ))}
                         
-                        <Modal className="mx-auto my-4 px-4 py-8 h-full w-full md:w-3/4 flex flex-col items-center justify-evenly bg-red-900 text-white rounded-lg " show={show} onHide={handleShow}>
-              <Modal.Header closeButton>
-                <Modal.Title>Wrong Answer</Modal.Title>
-              </Modal.Header>
-              <Modal.Body>Note this question and confirm your response within the Question page.</Modal.Body>
-              <Modal.Footer>
-                {/* <Button variant="secondary" onClick={handleClose}>
-                Close
-              </Button> */}
-                <Button variant="primary" onClick={handleClose}>
-                  X
-                </Button>
-              </Modal.Footer>
-            </Modal>
+                     
                   </div>
                   </div>
                   </div>
@@ -175,3 +162,18 @@ export default function Quiz() {
                   )
                 }
                 
+
+              //   <Modal className="mx-auto my-4 px-4 py-8 h-full w-full md:w-3/4 flex flex-col items-center justify-evenly bg-red-900 text-white rounded-lg " show={show} onHide={handleShow}>
+              //   <Modal.Header closeButton>
+              //     <Modal.Title>Wrong Answer</Modal.Title>
+              //   </Modal.Header>
+              //   <Modal.Body>Note this question and confirm your response within the Question page.</Modal.Body>
+              //   <Modal.Footer>
+              //     {/* <Button variant="secondary" onClick={handleClose}>
+              //     Close
+              //   </Button> */}
+              //     <Button variant="primary" onClick={handleClose}>
+              //       X
+              //     </Button>
+              //   </Modal.Footer>
+              // </Modal>

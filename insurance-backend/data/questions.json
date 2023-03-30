@@ -2323,7 +2323,7 @@
     ]
   },
   {
-    "question": "the majority of insurance companies use independent brokers to sell thier insurance policiesto the public.  Which of the following statements does NOT apply to this system of distribution?",
+    "question": "The majority of insurance companies use independent brokers to sell thier insurance policiesto the public.  Which of the following statements does NOT apply to this system of distribution?",
     "answerOptions": [
       {
         "answer": "Independent brokers receive commissions from their insurers for the business they produce",
@@ -2344,6 +2344,231 @@
         "answer": "Independent brokers own all their own clients",
         "isCorrect": false,
         "points": 0
+      }
+    ]
+  },
+  {
+    "question": "When dealing with financial risk a person has several options available.  In your opinion, which of the following is the best option for most people?",
+    "answerOptions": [
+      {
+        "answer": "Avoidance of risk",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Retention of Risk",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Transfer of Risk",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "Controlling of risk",
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "question": "Risk as the 'chance of financial loss' can be classified as either speculative or pure.  Which of the following best describes the meaning of pure risk",
+    "answerOptions": [
+      {
+        "answer": "There is no chance of financial loss",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "There is a chance of financial gain",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "There is only the chance of financial loss with no chance of profitting from it",
+        "isCorrect": true,
+        "points": 1
+      },
+      {
+        "answer": "Financial loss and financial gain are both present",
+        "isCorrect": false,
+        "points": 0
+      }
+    ]
+  },
+  {
+    "question": "A contract is legally enforceable only when all legal elements are present.  Only an insurance contract contains the following element:",
+    "answerOptions": [
+      {
+        "answer": "Genuine intention",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Legality of the object",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Consideration",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Indemnity",
+        "isCorrect": true,
+        "points": 1
+      }
+    ]
+  },
+  {
+    "question": "'Consideration' is required of all parties to a contract.  Consideration means:",
+    "answerOptions": [
+      {
+        "answer": "Thinking about purchasing insurance",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "An agreement by the insurer to treat the insured fairly",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "A commitment by the broker to represent an insurance company",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "an exchange of something of value between the parties",
+        "isCorrect": true,
+        "points": 1
+      }
+    ]
+  },
+  {
+    "question": "Legal capacity of the parties is an important element to a contract. Only the following party has the legal capacity to enter into a contract of insurance",
+    "answerOptions": [
+      {
+        "answer": "Sweet Cravings Bakery",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Tools 4 U Enterprises",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Jack Daniels a.k.a. Jacks Liquors",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Mario Montana Sportwear Ltd.",
+        "isCorrect": true,
+        "points": 1
+      }
+    ]
+  },
+  {
+    "question": "Insurance brokers are often asked to provide a binder to the insured.  A Binder is",
+    "answerOptions": [
+      {
+        "answer": "An insurance policy issued by the broker",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "A cover for an insurance manual",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Never legal when it was given orally",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "When a broker has committed an insurer to a contract of insurance on a risk",
+        "isCorrect": true,
+        "points": 1
+      }
+    ]
+  },
+  {
+    "question": "All changes to an existing insurance policy must be in writing.  Which document does the insurer issue when both the insurer and the insured have agreed to a change in the terms of the policy.",
+    "answerOptions": [
+      {
+        "answer": "A rider",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "A binder",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "A floater",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "an endorsement",
+        "isCorrect": true,
+        "points": 1
+      }
+    ]
+  },
+  {
+    "question": "In Canada the General Insurance Industry is strictly regulated by federal and provincial statutes.  The Provincial Government performs all of the following functions, except one.  Pick the exception.",
+    "answerOptions": [
+      {
+        "answer": "Supervising the terms and conditions of insurance contract",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Licensing insurance companies to transact business in the province",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Monitoring the financial stability of insurers that are not federally licensed",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Establishing premium levels for insurance contracts",
+        "isCorrect": true,
+        "points": 1
+      }
+    ]
+  },
+  {
+    "question": "The financial solvency of insurers is a crucial matter.  Solvency refers to ",
+    "answerOptions": [
+      {
+        "answer": "Selling shares to shareholders",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "The payment of commissions to brokers selling the policies of the insurer",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "Survival of the fittest",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "The ability of an insurer to pay all isnured losses",
+        "isCorrect": true,
+        "points": 1
       }
     ]
   }
