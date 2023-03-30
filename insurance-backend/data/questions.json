@@ -2571,5 +2571,55 @@
         "points": 1
       }
     ]
+  },
+  {
+    "question": "The Insurance Act determines when a contract of insurance takes effect.  Coverage commences at",
+    "answerOptions": [
+      {
+        "answer": "12:01 pm standard time at the address of the Named Insured",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "12:01 am standard time at the adddress of the location of the risk",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "12:01 am standard time at the address of the insurer",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "12:01 am standard time at the address of the Named Insured",
+        "isCorrect": true,
+        "points": 1
+      }
+    ]
+  },
+  {
+    "question": "The Removal Clause requires the insurer to extend coverage to another location where the insured property is kept, even if this location is not stated on the policy.  Only one of the following situations would qualify fo this coverage.",
+    "answerOptions": [
+      {
+        "answer": "The insured moved to a new residence five days ago and has not yet advised the insurer of the new location.",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "The insured keeps furniture and fixtures in a rented storage locker because there is a no more room at the principle residence",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "The insured keeps some personal property at her seasonal dwelling but only during the summer months",
+        "isCorrect": false,
+        "points": 0
+      },
+      {
+        "answer": "The insured moved personal property to a storage facility to protect it from loss because of an enroaching forest fire",
+        "isCorrect": true,
+        "points": 1
+      }
+    ]
   }
 ]
