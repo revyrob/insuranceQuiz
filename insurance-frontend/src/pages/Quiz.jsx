@@ -26,8 +26,6 @@ export default function Quiz() {
 
   const REACT_APP_API_SERVER_URL = process.env.REACT_APP_API_SERVER_URL;
 
-  // const handleClose = () => setShow(false);
-  // const handleShow = () => setShow(true);
 
   //get data from the backend
   const getQuestions = () => {
