@@ -4,8 +4,8 @@ import { v4 as uuidv4 } from "uuid";
 import Final from '../pages/Final';
 import { Line } from "rc-progress";
 import axios from "axios";
-import Modal from "react-bootstrap/Modal";
-import Button from "react-bootstrap/Button";
+// import Modal from "react-bootstrap/Modal";
+// import Button from "react-bootstrap/Button";
 
 export default function Quiz() {
   //num from session storage, entered by user on the homepage
@@ -20,14 +20,14 @@ export default function Quiz() {
   const [showScore, setShowScore] = useState(false);
   const [answerSelected, setAnswerSelected] = useState(false);
   const [answerCorrect, setAnswerCorrect] = useState(false);
-  const [wrongBox, setWrongBox] = useState(false);
+  //const [wrongBox, setWrongBox] = useState(false);
   const [show, setShow] = useState(false);
 
 
   const REACT_APP_API_SERVER_URL = process.env.REACT_APP_API_SERVER_URL;
 
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  // const handleClose = () => setShow(false);
+  // const handleShow = () => setShow(true);
 
   //get data from the backend
   const getQuestions = () => {
@@ -72,12 +72,12 @@ export default function Quiz() {
     if (isCorrect && (answerSelected === isCorrect)) {
       setScore(score + points);
       setAnswerCorrect(true); 
-      setShow(false);
+      // setShow(false);
       console.log(show)
     } else {
-      //setShow(true);
-      //console.log(show);
-      alert('wrong answer.')
+      // setShow(true);
+      // console.log(show);
+      alert('answer is wrong.')
     }
     
     
@@ -151,20 +151,7 @@ export default function Quiz() {
                   
                   ))}
                         
-                        <Modal className="mx-auto my-4 px-4 py-8 h-full w-full md:w-3/4 flex flex-col items-center justify-evenly bg-red-900 text-white rounded-lg " show={show} onHide={handleShow}>
-              <Modal.Header closeButton>
-                <Modal.Title>Wrong Answer</Modal.Title>
-              </Modal.Header>
-              <Modal.Body>Note this question and confirm your response within the Question page.</Modal.Body>
-              <Modal.Footer>
-                {/* <Button variant="secondary" onClick={handleClose}>
-                Close
-              </Button> */}
-                <Button variant="primary" onClick={handleClose}>
-                  X
-                </Button>
-              </Modal.Footer>
-            </Modal>
+                     
                   </div>
                   </div>
                   </div>
@@ -175,3 +162,18 @@ export default function Quiz() {
                   )
                 }
                 
+
+              //   <Modal className="mx-auto my-4 px-4 py-8 h-full w-full md:w-3/4 flex flex-col items-center justify-evenly bg-red-900 text-white rounded-lg " show={show} onHide={handleShow}>
+              //   <Modal.Header closeButton>
+              //     <Modal.Title>Wrong Answer</Modal.Title>
+              //   </Modal.Header>
+              //   <Modal.Body>Note this question and confirm your response within the Question page.</Modal.Body>
+              //   <Modal.Footer>
+              //     {/* <Button variant="secondary" onClick={handleClose}>
+              //     Close
+              //   </Button> */}
+              //     <Button variant="primary" onClick={handleClose}>
+              //       X
+              //     </Button>
+              //   </Modal.Footer>
+              // </Modal>
